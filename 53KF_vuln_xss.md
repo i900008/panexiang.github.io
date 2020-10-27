@@ -27,7 +27,8 @@ Tested on: macOS
 ## verification：
 Open 53 online customer service chat window to inject POC
 
-![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/2.png
+![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/2.png)
+
 Close the chat window and open it again. The attack is successful
 
-![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/1.png
+![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/1.png)
