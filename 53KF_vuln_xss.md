@@ -19,7 +19,7 @@ Cross Site Scripting (XSS) vulnerability in 53KF online chat system product, Aff
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](https://github.com/i900008/panexiang.github.io/blob/gh-pages/2.png)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
